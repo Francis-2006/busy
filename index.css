@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background: orange;
+}
+.img{
+    margin-left: 560px;
+    margin-top: 90px;
+}
+    .image{
+        font-size: 120px;
+        animation: my-style;
+        animation-duration: 5s;
+        animation-name: my-style;
+        animation-iteration-count: infinite;
+        animation-direction:alternate;
+    }
+
+    .image:hover{
+        animation: 5s linear 5s infinite running  my-style;
+    }
+
+    @keyframes my-style {
+        from{
+            margin-left: -450px;
+        } to{
+            margin-left: 500px;
+        }
+        
+    }
+
+
+    .text{
+        font-size: 65px;
+        margin-left: 100px;
+        padding-bottom: 30px;
+        
+    }
+    .text h1{
+        transition-delay: 1ms;
+        transition-timing-function:ease-in-out ;
+        transition-duration: 0.7s;
+        transition-delay: 0s;
+        font-family: 3em;
+    }
+
+    .text h1:hover{
+        color: white;
+        
+    }
+    .text b{
+        font-size: 20px;
+        margin-left: 390px;
+        font-family: arial;
+        
+    }
+    .button{
+        margin-left: 510px;
+    }
+    .button button{
+        width: 250px;
+        height: 35px;
+        background: black;
+        border-radius: 10px;
+        
+    }
+    .button a{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }

@@ -1,0 +1,288 @@
+*{
+    margin:0px;
+    padding: 0px; 
+    color: white;
+
+}
+/* logo */
+.logo{
+    padding: 10px;
+}
+.logo b{
+    font-size: 20px;
+    font-family:sans-serif;
+    color: aqua;
+}
+.logo span{
+    font-family: arial;
+    color: white;
+}
+
+
+/* background*/
+.container{
+    background: orange;
+    display: flex;
+    gap: 700px;
+}
+body{
+    background: black;
+}
+/*menu*/
+.menu ul{
+    list-style:  none;
+    display: flex;
+}
+.menu ul li{
+    padding-left: 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.menu ul li a:hover{
+    color: aqua;
+}
+
+/* dropdown*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
+.drop-option a{
+    text-decoration: none;
+}
+
+
+.drop-option{
+    display: none;
+    background: transparent;
+    margin-left: 50px;
+    
+
+}
+
+
+.drop-option a:hover{
+    color: aqua;
+}
+
+.dropdown:hover .drop-option{
+    display: block;
+}
+
+/*webtext*/
+.webtextimage h1{
+    padding: 50px;
+    font-size: 120px;
+    margin-left: 40px;
+    margin-top: -40px;
+    animation: my-style;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.webtextimage h1:hover{
+    animation: 5s linear 0s infinite running my-style;
+} 
+@keyframes my-style {
+    from{
+        margin-left: 0px;
+    } to{
+        margin-left: 200px;
+    }
+    
+}
+
+.webtext{
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.webtext b{
+    font-size: 40px;
+    color: orange;
+    font-family: cursive;
+    padding-right: 10px;
+}
+.webtext span{
+    font-size: 30px;
+    font-family: arial;
+    color: aqua;
+}
+.webtext b1{
+    font-size: 50px;
+    color: orange;   
+    font-weight: 200px; 
+}
+.webtext p{
+    font-size: 20px;
+    color: aqua;
+    padding-bottom: 20px;
+}
+.webtext p1{
+    font-size: 15px;
+    font-family: arial;
+}
+.webtext p2{
+    font-size: 15px;
+    font-family: arial;
+}
+.webtext p3{
+    background: orange;
+    color: black;
+    font-family: arial;
+    display: inline-block;
+}
+.page{
+    display: flex;
+    gap: 500px;
+}
+.searchandlogin{
+    margin-top: -190px;
+}
+.search input{
+    width: 350px;
+    height: 30px;
+    border-radius: 7px;
+    color:white;
+    border-color: orange;
+    border: 3x solid;
+    caret-color: black;
+    background:transparent;
+}
+    .search{
+        margin-left: -60px;
+        padding-bottom: 60px;
+    }
+    .search a{
+        text-decoration: none;
+        font-size: 27px;
+        color: orange;
+    }
+    .search a:hover{
+        color: aqua;
+    }
+    .login{
+        width:350px;
+        height: 340px;
+        border: 5x solid;
+        background:transparent;
+        backdrop-filter: blur(15px);
+        margin-left: -50px;
+        border-radius: 20px;
+        border-color: orange;
+    }
+
+    .login h1{
+        color:white;
+        margin-left: 100px;
+    }
+
+     .inp1{
+        width: 300px;
+        height: 27px;
+        margin-left: 10px;
+        border-radius: 7px;
+        border-color:orange;
+        border: 3x solid;
+        color:white;
+        caret-color: white;
+        background: transparent;
+    }
+    
+    .inp2{
+        width: 300px;
+        height: 27px;
+        margin-left: 10px;
+        border-radius: 7px;
+        border-color:orange;
+        border: 3x solid;
+        color: white;
+        caret-color: white;
+        background: transparent;
+    }
+      .a1{
+        margin-left: 97px;
+        color: white;
+        font-family: arial;
+        text-decoration: none;
+        font-size: small;
+      }
+      .inp3,.l1{
+        margin-top: 10px;
+        margin-left: 10px;
+        color: white;
+      }
+
+      button{
+        margin-top: 40px;
+        width: 300px;
+        height: 27px;
+        background: orange;
+        border: 3x solid;
+        border-color: aqua;
+        margin-left: 10px;
+      }
+      .cn{
+        color: black;
+        font-size: 17px;
+        text-decoration: none;
+      }
+
+      
+    .icons{
+        width: 200px;
+        height: auto;
+        font-size: 30px;
+        padding: 10px;
+    
+    }
+    
+    .icons a{
+        text-decoration: none;
+    }
+    .fa-facebook{
+        color: blue;
+        
+        
+    }
+    .fa-facebook:hover{
+        color: aliceblue;
+    }
+    .fa-twitter{
+        color: aqua;
+        
+
+    }
+
+    .fa-twitter:hover{
+        color: aliceblue;
+    }    
+    .fa-whatsapp{
+        color: rgb(23, 196, 23);
+        
+    }
+    .fa-whatsapp:hover{
+        color: aliceblue;
+    }
+    .fa-instagram{
+        color: rgb(228, 90, 10);
+    }
+    .fa-instagram:hover{
+        color: aliceblue;
+    }
+    .fa-skype{
+        color: aqua;
+    }
+    .fa-skype:hover{
+        color: aliceblue;
+    }
+    .fa-youtube{
+        color: red;
+    }
+    .fa-youtube:hover{
+        color: aliceblue;
+    }

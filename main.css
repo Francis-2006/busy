@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+.menu h1{
+    margin-top: 5px;
+}
+.menucont{
+    display: flex;
+    gap: 70px;   
+    background: orange;
+}
+.logo{
+    padding-top: 20px;
+}
+.account{
+    padding-left: 600px;
+}
+.account label{
+    font-size: medium;
+    margin-left: -8px;
+}
+.account h1{
+    font-size:20px;
+    margin-top: 10px;
+}
+.basket{
+    margin-top: 8px;
+}
+.basket button{
+      background: black;
+    border-radius: 5px;
+
+    
+}
+
+.basket a{
+    color: white;
+    text-decoration: none;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+    border: 3x solid;
+}
+.dropdown-options{
+    display: none;
+    background: black;
+    color: white;
+    border: 3x solid;
+    padding:10px;
+    height: 560px;
+}
+.dropdown-options a{
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    border:3x solid;
+    
+
+}
+.dropdown-options a:hover{
+    color: orange;
+}
+.a1{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+.dropdown:hover .dropdown-options{
+    display: block;
+}
+.telephone{
+    background: black;
+    height: 30px;
+    padding: 10px;
+}
+.telephone b{
+    color: white;
+    font-family: arial;
+    padding: 30px;
+    margin-left: 450px;
+    margin-top: 10x;
+    font-size: 25px;
+}
+img{
+    width: 273px;
+    height: 200px;
+    border-radius: 2px;
+
+}
+.image{
+    display: flex;
+}
+.order{
+    
+    background: red;
+    padding: 17px;
+}
+.order b{
+    color: white;
+    font-size: 25px;
+    margin-left: 400px;
+
+    
+}
+.product img{
+    width: 350px;
+    height: 400px;
+}
+.product{
+    display: flex;
+}
